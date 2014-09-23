@@ -8,7 +8,12 @@ ssh is a small wrapper for tmux and developed to replaces cssh. With use of tmux
 debian based distros:
 
 apt-get install tmux
+
 prerequisits:
 
 - default aspell dictionary ”/usr/share/dict/words” for random session names
-- for ease of use hosts should be configured in ”./ssh/config”
+- for ease of use it is recommended to configure hosts in ”./ssh/config”
+- install / merge tmux.conf   ->  ~/.tmux.conf
+
+
+
